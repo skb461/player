@@ -1,5 +1,27 @@
-# Vue 3 + Vite
+# Dream Team Player Selection
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Assemble your ultimate Dream 11 cricket team with this interactive player selection app built with React and Vite.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+- **Player List**: Displays a list of cricket players with details such as name, country, role, type, and price.
+- **Player Selection**: Allows users to select players for their team while managing a coin balance.
+- **Dynamic Coin Balance**: Users can claim free credits and spend coins to choose players.
+- **Validation**: Ensures players cannot be selected more than once and limits the selection to a maximum of 6 players.
+- **Toast Notifications**: Provides feedback to the user using `react-toastify` for better user experience.
+
+## Technologies Used
+- **React**: For building the user interface.
+- **Vite**: For a fast development build and optimized production build.
+- **Tailwind CSS**: For styling the components.
+- **React Toastify**: For toast notifications.
+- **JSON**: Used for storing and loading player data.
